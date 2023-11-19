@@ -1,0 +1,20 @@
+/* Pozicioniranje canvasa na 99% zbog skaliranja - zauzet će skoro cijeli ekran, a ne ići preko njega */
+
+#myCanvas {
+    height: auto;
+    width: auto;
+    max-width: 99%;
+    max-height: 99%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: black 3px solid;
+}
+
+body {
+    margin: 0;
+}
