@@ -202,7 +202,7 @@ function formatTime(time) {
     const minutes = Math.floor(time / 60000);
     const seconds = Math.floor((time / 1000) % 60);
     const milliseconds = (time % 1000).toString().padStart(3, '0');
-    return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}:${milliseconds}`;
+    return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}.${milliseconds}`;
 }
 
 //Funkcija za prikaz vremena i najboljeg vremena na canvasu
